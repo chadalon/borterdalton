@@ -1,5 +1,5 @@
 :root {
-  --porter1: #ff71ce;
+  --porter1: #bd087f;
   --porter2: #01cdfe;
 }
 html {
@@ -7,7 +7,7 @@ html {
   background-color: #585aff;
   background-color: var(--porter2);
   height: 100%;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: "Comic Sans MS", "Comic Sans", comicsansms, cursive;
 }
 
 body {
