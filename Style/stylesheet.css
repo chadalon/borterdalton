@@ -85,6 +85,12 @@ li {
   z-index: -1;
   width: 100%;
 }
+#grid-imgs {
+  display: flex;
+}
+#grid-imgs img {
+  width: 50%;
+}
 
 .biowords {
   margin: 0px;
