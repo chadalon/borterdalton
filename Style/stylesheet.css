@@ -1,6 +1,7 @@
 :root {
   --porter1: #bd087f;
   --porter2: #01cdfe;
+  --header-height: 100px;
 }
 html {
   background-color: #01cdfe;
@@ -35,7 +36,7 @@ li {
 
 .header {
   background-color: var(--porter1);
-  height: 100px;
+  height: var(--header-height);
   display: flex;
   width: 100%; /*calc(100% - 200px);*/
   position: fixed; /*absolute;*/
@@ -79,11 +80,31 @@ li {
   padding: 20px 0px 20px 0px;
 }
 
+.slideshow-container {
+  display: flex;
+  overflow: hidden;
+}
+.img-slideshow {
+  /* overflow: hidden; */
+  /* height: 90vh; */
+  display: flex;
+}
+.img-slideshow img {
+  height: 80vh;
+}
+div.slide-up {
+  height: 300px;
+  overflow: hidden;
+}
+div.slide-up div.inner {
+  animation: slide-up 10s;
+  margin-top: 0%;
+}
+
 #mainimg {
   display: block;
   /*position: fixed;*/
   z-index: -1;
-  width: 100%;
 }
 #grid-imgs {
   display: flex;

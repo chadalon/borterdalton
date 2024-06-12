@@ -37,14 +37,13 @@ soundcloud tags - names not showing on some tags
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
+    <script src="/Scripts/index.js" defer></script>
   </head>
 
   <body>
     <div class="header">
       <div id="topwords">
-        <a href="https://chadalon.com">
-          <p id="title">BorTeR dAlTon</p>
-        </a>
+        <p id="title">BorTeR dAlTon</p>
       </div>
       <!--
 				toplinks is only here when there's a big screen
@@ -53,7 +52,14 @@ soundcloud tags - names not showing on some tags
     </div>
 
     <div class="left">
-      <img id="mainimg" src="Images/porter01.jpg" alt="Beautiful Boy" />
+      <div class="slideshow-container">
+        <div class="img-slideshow" id="main-slideshow">
+          <img id="mainimg" src="Images/porter01.jpg" alt="Beautiful Boy" />
+          <img src="Images/porter-clean-1.jpg" alt="Porter Cleaning" />
+          <img src="Images/borterunicycling.jpeg" alt="Borter the unicyclist" />
+          <img src="Images/borter_hotdog.png" alt="Hot DAWG" />
+        </div>
+      </div>
       <div class="menus bmenus" id="topmenu">
         <p class="titles wtitles">Have you seen this man?</p>
         <div id="grid-imgs">
