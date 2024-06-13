@@ -8,7 +8,12 @@ html {
   background-color: #585aff;
   background-color: var(--porter2);
   height: 100%;
-  font-family: "Comic Sans MS", "Comic Sans", comicsansms, cursive;
+  font-family: "Cinzel Decorative", "Comic Sans MS", "Comic Sans", comicsansms,
+    cursive;
+}
+p,
+li {
+  font-family: "Roboto";
 }
 
 body {
@@ -62,9 +67,10 @@ li {
 .bmenus {
   background-color: var(--porter1);
 }
+/*
 .bmenus .titles {
   color: var(--porter2);
-}
+}*/
 
 .left {
   /*background-color: #05ffa1;*/
