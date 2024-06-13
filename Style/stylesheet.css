@@ -135,6 +135,10 @@ div.slide-up div.inner {
   border-radius: 3px;
 }
 
+#deckimg {
+  max-width: 90vw;
+}
+
 #contact-info {
   display: flex;
   align-items: center;
