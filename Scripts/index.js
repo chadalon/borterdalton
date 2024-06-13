@@ -34,6 +34,7 @@ function moveContainer() {
   // Increment the position by a certain amount
   position1 -= 1;
   position2 -= 1;
+  console.log(position1 - position2);
   // Check if the container has moved completely to the left
   if (position1 <= -container.offsetWidth /* + firstPicWidth*/) {
     // Reset the position of the duplicate container
