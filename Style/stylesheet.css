@@ -2,6 +2,7 @@
   --porter1: #bd087f;
   --porter2: #01cdfe;
   --header-height: 100px;
+  --menu-padding: 20px;
 }
 html {
   background-color: #01cdfe;
@@ -60,7 +61,7 @@ li {
 }
 
 .menus {
-  padding: 20px;
+  padding: var(--menu-padding);
   text-align: center;
   background-color: var(--porter2);
 }
@@ -136,7 +137,7 @@ div.slide-up div.inner {
 }
 
 #deckimg {
-  max-width: 90vw;
+  max-width: calc(90vw - var(--menu-padding) * 2);
 }
 
 #contact-info {
@@ -211,6 +212,20 @@ div.slide-up div.inner {
   }
   #spacer {
     height: 0px;
+  }
+  #title {
+    font-size: 2em;
+    margin: 0;
+  }
+  .header {
+    justify-content: center;
+    align-items: center;
+  }
+  .titles {
+    font-size: 2em;
+  }
+  #topwords {
+    margin: 0;
   }
 }
 
